@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f8ff;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(135deg, #101b50, #3156c9);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header p {
+    margin: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 65px 20px;
+    text-align: center;
+}
+
+#home {
+    background: white;
+    padding: 110px 20px;
+}
+
+#home h2 {
+    color: royalblue;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+#home h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#home p,
+#about p {
+    line-height: 1.7;
+}
+
+.main-btn,
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+    background: royalblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.whatsapp-btn {
+    background: #168b48;
+}
+
+.main-btn:hover,
+.whatsapp-btn:hover {
+    opacity: 0.85;
+}
+
+section h2 {
+    color: royalblue;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+#about p,
+#projects .note {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #d5dcef;
+}
+
+.card h3 {
+    color: royalblue;
+    margin-bottom: 15px;
+}
+
+#projects .note {
+    margin-top: 25px;
+}
+
+#contact {
+    background: white;
+}
+
+footer {
+    background: #101b50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        margin: 8px;
+    }
+
+    #home h2 {
+        font-size: 30px;
+    }
+
+    #home h3 {
+        font-size: 20px;
+    }
+}
